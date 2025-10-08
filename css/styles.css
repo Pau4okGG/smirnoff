@@ -52,6 +52,14 @@ header nav a:hover{
     color: lightgray;
 }   
 
+.logo{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 main{
     min-height: 40vh;
     margin: 100px auto;
@@ -245,7 +253,8 @@ main img{
 }
 
 .qna button{
-    margin: 10px 0;
+    padding: 0 20px;
+    margin: 5px 0;
     font-size: 16px;
     font-weight: 600;
     width: 100%;
@@ -256,4 +265,5 @@ main img{
     align-items: center;
     border: none;
     background-color: #242325;
+    color: white;
 }
