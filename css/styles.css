@@ -1,6 +1,5 @@
 body{
     background-color: whitesmoke;
-
     margin: 0;
     font-family: montserrat ,sans-serif;
 }
@@ -235,4 +234,26 @@ main img{
     height: 350px;
     width: 100%;
     border-radius: 20px;
+}
+
+.qna{
+    width: 90%;
+    margin: auto;
+    min-height: 50hv;
+    display: flex;
+    flex-direction: column;
+}
+
+.qna button{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: #242325;
 }
